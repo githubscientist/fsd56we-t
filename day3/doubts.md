@@ -1,5 +1,6 @@
 day 1 & day2 doubts:
 
-[] Copy by value and Copy by reference  
-[] XHR: XMLHttpRequest
-[] Array and JSON Iteration
+[x] Copy by value and Copy by reference  
+[x] XHR: XMLHttpRequest
+[x] Array and JSON Iteration --JSON Iteration pending
+[] splice method
