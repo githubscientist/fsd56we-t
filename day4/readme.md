@@ -1,6 +1,6 @@
 Day -4 : ES5 vs ES6
 
-[] var vs let vs const
+[x] var vs let vs const
 [] block scoping
 [] spread & rest operators
 
