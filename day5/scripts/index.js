@@ -1,54 +1,82 @@
-// anonymous function
-// let findMedian = function (nums1, nums2) {
-//     // combine both the arrays into a single array (sorted + unsorted)
-//     let nums = nums1.concat(nums2);
+// Understanding the basics of prototype 
 
-//     // sort the array if the previous step involves merging of the arrays in an unsorted way
-//     nums.sort((a, b) => a - b);
+/*
+    {
+        name
+        brand
+        owner
+        registrationNumber
+        ...
+        ...
+    }
+*/
 
-//     // find the average of the middle two elements in the combined array
-//     let median = (nums[nums.length / 2 - 1] + nums[nums.length / 2])/2;
+// let car101 = {
+//     name: '',
+//     brand: 'toyota',
+//     owner: '',
+//     number: ''
 
-//     // print/return the average
-//     console.log(median);
 // }
 
-// let nums1 = [1, 3, 6, 7, 10];
-// let nums2 = [2, 4, 5, 8, 9];
-
-// findMedian(nums1, nums2);
-
-// arrow function
-// let findMedian = (nums1, nums2) => {
-//     // combine both the arrays into a single array (sorted + unsorted)
-//     let nums = nums1.concat(nums2);
-
-//     // sort the array if the previous step involves merging of the arrays in an unsorted way
-//     nums.sort((a, b) => a - b);
-
-//     // find the average of the middle two elements in the combined array
-//     let median = (nums[nums.length / 2 - 1] + nums[nums.length / 2])/2;
-
-//     // print/return the average
-//     console.log(median);
+// let car102 = {
+//     name: '',
+//     brand: 'volkswagen',
+//     owner: '',
+//     number: ''
 // }
 
-// let nums1 = [1, 3, 6, 7, 10];
-// let nums2 = [2, 4, 5, 8, 9];
+// let car103 = {
+//     name: '',
+//     brand: 'mercedes',
+//     owner: '',
+//     number: ''
+// }
 
-// findMedian(nums1, nums2);
+// let cars = [car101, car102, car103];
 
-// IIFE: Immeidately Invoked Function Expression
-((nums1, nums2) => {
-    // combine both the arrays into a single array (sorted + unsorted)
-    let nums = nums1.concat(nums2);
+// console.log(cars[2].brand);
 
-    // sort the array if the previous step involves merging of the arrays in an unsorted way
-    nums.sort((a, b) => a - b);
+// -------------------------------
 
-    // find the average of the middle two elements in the combined array
-    let median = (nums[nums.length / 2 - 1] + nums[nums.length / 2])/2;
+// function prototype
+function Car(number) {
+    this.number = number;
 
-    // print/return the average
-    console.log(median);
-})([1, 3, 6, 7, 10], [2, 4, 5, 8, 9]);
+    // method
+    this.findCity = function () {
+        let cities = {
+            "66": "COIMBATORE",
+            "37": "CHENNAI",
+            "31": "MADURAI"
+        }
+        return cities[this.number.split(' ')[1]];
+    }
+
+    this.toString = function () {
+        console.log(`Car with number ${this.number} is from ${this.findCity()}`);
+    }
+}
+
+let cars = [];
+
+cars.push(new Car('TN 37 AB 0707'));
+cars.push(new Car('TN 66 XY 8686'));
+cars.push(new Car('TN 31 AB 1234'));
+cars.push(new Car('TN 37 AB 0777'));
+cars.push(new Car('TN 66 XY 1234'));
+cars.push(new Car('TN 31 AB 5678'));
+cars.push(new Car('TN 37 AB 0909'));
+
+// Problem: Print all the cars
+// for (let index = 0; index < cars.length; index++){
+//     cars[index].toString();
+// }
+
+// Problem: Find all the cars from COIMBATORE
+// for (let index = 0; index < cars.length; index++){
+//     if (cars[index].findCity() === 'COIMBATORE') {
+//         cars[index].toString();
+//     }
+// }
+
