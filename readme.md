@@ -18,14 +18,32 @@ Sample Output:
 
 **Contents:**
 
-[] div vs section vs article  
-[] div vs span = inline vs block elements  
-[] HTML Forms  
-[] Input elements and attributes  
-[] Form submit
+[x] What is HTML & Why use it?  
+[x] Basic Tags
+
+- headings
+- paragraph
+- line break
+- horizontal line
+- comments
+- links
+- images
+- lists
+
+  - unordered
+  - ordered
+
+- tables
+
+  [] HTML vs HTML5  
+  [] div vs section vs article  
+  [] div vs span = inline vs block elements  
+  [] HTML Forms  
+  [] Input elements and attributes  
+  [] Form submit
 
 [] Practice task URL:
-https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md"
+https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
 
 Pre-read:
 "https://developer.mozilla.org/en-US/docs/Web/HTML
