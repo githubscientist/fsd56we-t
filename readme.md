@@ -1,6 +1,6 @@
 **doubts:**
 
-[] currencies day6 task
+[x] currencies day6 task
 
 ### Day -1 : HTML
 
