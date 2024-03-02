@@ -47,9 +47,33 @@ nav:
 
 - It is a semantic element that is used to define the navigation links of the page.
 
-[] div vs span  
-[] inline vs block elements  
-[] HTML Forms  
+[x] div vs span  
+[x] inline vs block elements
+
+block:
+
+- It takes the full width available.
+- It starts from a new line and ends in a new line.
+- It can have margin, padding, width, height, etc.
+- examples:
+  - div
+  - h1, h2, h3, h4, h5, h6
+  - p
+  - ul, ol, li
+  - table
+
+inline:
+
+- It takes only the width of the content. It will be in the same line as the other elements.
+- It does not start from a new line and does not end in a new line.
+- It does not have margin, padding, width, height, etc.
+- examples:
+  - span
+  - a
+  - img
+  - input
+
+[x] HTML Forms  
 [] Input elements and attributes  
 [] Form submit
 

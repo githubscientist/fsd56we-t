@@ -4,6 +4,16 @@
         <title>HTML DEMO</title>
     </head>
 
+    <style>
+        .link > a {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            background-color: blue;
+            margin: 0 5px;
+        }
+    </style>
+
     <body>
         <section>
             <header>
@@ -25,7 +35,9 @@
                 </p>
                 
                 <p>
-                    For more details, please click <a href="https://www.guvi.in">here</a>
+                    For more details, please click <span class="link">
+                        <a href="https://www.guvi.in">here</a>
+                    </span>
                 </p>
                 
                 <!-- <img
