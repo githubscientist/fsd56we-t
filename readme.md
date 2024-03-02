@@ -74,10 +74,10 @@ inline:
   - input
 
 [x] HTML Forms  
-[] Input elements and attributes  
-[] Form submit
+[x] Input elements and attributes  
+[x] Form submit
 
-[] Practice task URL:
+[x] Practice task URL:
 https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
 
 Pre-read:
