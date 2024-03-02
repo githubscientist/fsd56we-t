@@ -6,7 +6,42 @@
 
 **Contents:**
 
-[] HTML vs HTML5  
+[x] HTML vs HTML5
+
+Version History:
+
+- HTML 1.0 - 1993
+- HTML 2.0 - 1995
+- HTML 3.2 - 1997
+- HTML 4.01 - 1999
+- XHTML 1.0 - 2000
+- HTML5 - 2014
+
+HTML5:
+
+- It is the latest version of HTML.
+- It has new elements, attributes, and APIs.
+- Elements:
+  - section
+  - article
+  - header
+  - footer
+  - nav
+  - main
+  - aside
+  - figure
+  - figcaption
+  - audio
+  - video
+  - canvas
+  - progress
+  - meter
+  - time
+  - mark
+  - output
+  - datalist
+  - details
+
 [x] div vs section vs article
 
 div:
