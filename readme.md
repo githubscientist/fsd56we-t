@@ -47,3 +47,17 @@ Pre-read:
 
 "https://www.w3schools.com/html/default.asp
 https://github.com/rvsp/html-CSS/"
+
+Exercises:
+
+1. Create a html file with a paragraph and apply inline css to change the color of the text.
+
+2. Create a html file with a paragraph and apply internal css to change the color of the text.
+
+3. Create a html file with a paragraph and apply external css to change the color of the text.
+
+4. Create a html file with a paragraph and apply external css to change the color of the text using class selector.
+
+5. Create a html file with a paragraph and apply external css to change the color of the text using id selector.
+
+6. Create a html file with a paragraph and apply external css to change the color of the text using element selector.
