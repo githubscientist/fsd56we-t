@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.gridItem {
+    border: 10px solid #2096F3;
+    background-color: #D7EAFD;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    grid-column: 1 / span 3;
+}
+
+.menu {
+    grid-row: 2 / span 2;
+}
+
+.footer {
+    grid-column: 2 / span 2;
+}
+
