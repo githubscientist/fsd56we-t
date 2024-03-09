@@ -1,25 +1,3 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-#about {
-    color: red;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-#placements th {
-    background-color: lightgrey;
-}
-
-#aboutHeader, #placementsHeader, #blogHeader, #feedbackHeader {
-    color: blue;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 32px;
-}
-
-#welcomeHeader ~ p {
-    color:blueviolet;
-}

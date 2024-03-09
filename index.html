@@ -4,43 +4,7 @@
         <title>HTML DEMO</title>
 
         <link rel="icon" href="./day8/assets/favico.jpeg">
-
-        <!-- internal styles -->
-        <style>
-            /* ruleset */
-            p {
-                /* rules */
-                /* property: value */
-                color: green;
-            }
-
-            .italics {
-                font-style: italic;
-            }
-
-            #usp {
-                color: blue;
-            }
-
-            ol > li {
-                color: red;
-            }
-
-            /* attribute selector */
-            a[href="https://www.guvi.in"] {
-                text-decoration: none;
-                color: red;
-            }
-
-            #welcomeHeader {
-                color: brown;
-            }
-
-            .welcomeHeader {
-                color: blueviolet !important;
-            }
-        </style>
-
+        
         <!-- external styles -->
         <link rel="stylesheet" href="./day8/styles/index.css">
     </head>
@@ -49,14 +13,14 @@
         <section>
             <header>
                 <!-- inline styles -->
-                <h1 style="text-align: center; font-size: 32px;" id="welcomeHeader" class="welcomeHeader">Welcome to GUVI!!</h1>
+                <h1 id="welcomeHeader" class="welcomeHeader">Welcome to GUVI!!</h1>
                 <img src="./day8/assets/scholarship.webp" width="100%">
-                <p id="about" style="display: inline;">
+                <p id="about">
                     <span class="bold">GUVI</span> is a platform that provides a wide range of courses for students and professionals.&nbsp;It is a great platform
                     to learn and grow. It provides a wide range of courses from programming to marketing.
                 </p>
                 
-                <p id="usp" style="display: inline;">
+                <p id="usp">
                     The courses are designed by industry experts and are very easy to understand. The platform also provides a lot of
                     free courses.
                 </p>
@@ -68,7 +32,6 @@
                 
                 <p class="bold italics">
                     For more details, please click
-                        <a href="https://www.guvi.in" style="display: block;">here</a>
                         <a href="https://www.guvi.in" style="display: block;">here</a>
                 </p>
                 <hr>
@@ -182,7 +145,7 @@
             <h2 id="blogHeader">Blog Posts</h2>
             <article>
                 <h4>Post 1</h4>
-                <p style="color:brown">
+                <p>
                     What is Full Stack Development ?
 
                     Full stack development refers to the development of both front end (client side) and back end (server side) portions of web application. Full stack web developers have the ability to design complete web application and websites. They work on the frontend, backend, database and debugging of web application or websites.
