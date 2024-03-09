@@ -3,8 +3,8 @@
 ## Contents:
 
 [x] Box model: padding,margin,border  
-[] Flex - display, direction, wrap, flex-flow, justify-content, align-content  
-[] grid - display, grid-template-columns, grid-template-rows, grid-template-areas
+[x] Flex - display, direction, wrap, flex-flow, justify-content, align-content  
+[] grid - display, grid-template-columns, grid-template-rows, grid-template-areas  
 [] position property: fixed,static,relative,absolute,sticky  
 [] parent inherit  
 [] gradient

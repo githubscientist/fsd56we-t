@@ -1,7 +1,5 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 #welcomeHeader {
@@ -34,3 +32,84 @@
     padding: 10px;
     margin: 30px;
 } */
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    padding: 0;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; // horizonatally align items to the center */ 
+    /* justify-content: space-around; */
+    justify-content: flex-end;
+    /* align-items: center; // vertically align items to the center */
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li {
+    margin: 0 10px;
+    border: 1px solid lightgrey;
+    padding: 5px 10px;
+}
+
+.menu li:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.home {
+    order: 1;
+}
+
+.about {
+    order: 3;
+}
+
+.courses {
+    order: 2;
+}
+
+.contact {
+    order: 4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navSection {
+    order: 1;
+}
+
+.headerSection {
+    order: 2;
+}
+
+.coursesSection {
+    order: 5;
+}
+
+.placementsSection {
+    order: 4;
+}
+
+.blogsSection {
+    order: 6;
+}
+
+.feedbackSection {
+    order: 3;
+}
+
+.footerSection {
+    order: 7;
+}
