@@ -2,9 +2,9 @@
 
 **Contents:**
 
-[] overflow - hidden, scroll, auto, visible  
+[x] overflow - hidden, scroll, auto, visible  
 [] dropbox  
 [] measurements  
-[] fonts  
-[] icons  
+[x] fonts  
+[x] icons  
 [] media query --will be covered with RWD
