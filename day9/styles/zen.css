@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+}
+
+.gridItem {
+    border: 10px solid #2096F3;
+    background-color: #D7EAFD;
+    padding: 20px;
+}
+
+.sidebar {
+    grid-row: 1 / span 4;
+}
+
+.header {
+    grid-column: 2 / span 2;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.search {
+    grid-column: 2 / span 2;
+}
