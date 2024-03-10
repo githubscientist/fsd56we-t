@@ -113,3 +113,16 @@
 .footerSection {
     order: 7;
 }
+
+.navSection {
+    position: fixed;
+}
+
+.headerSection {
+    margin-top: 50px;
+}
+
+#about {
+    position: sticky;
+    top: 75px;
+}
