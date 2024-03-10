@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gradient & Parent Inherit</title>
+
+        <style>
+            .parent {
+                background-color: lightgray;
+                padding: 20px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            .child {
+                padding: 30px;
+            }
+
+            .grand-child {
+                padding: inherit;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="parent">
+            <p>This is the parent element</p>
+
+            <div class="child">
+                <p>This is the child element</p>
+
+                <div class="grand-child">
+                    <p>This is the grand-child element</p>
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>

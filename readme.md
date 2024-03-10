@@ -16,9 +16,6 @@ sticky: it is relative to its parent element and it will be fixed to the viewpor
 [] parent inherit  
 [] gradient
 
-[] parent inherit  
-[] gradient
-
 box model:
 
 - It is a model used to design the layout of the web page.
