@@ -1,3 +1,5 @@
+/* the styles above 992px */
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -116,4 +118,28 @@
 
 * {
     font-family: 'Kode Mono';
+}
+
+.navSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuIcon {
+    display: none;
+}
+
+/* media query */
+/* the styles upto 991px */
+@media (max-width: 991px){
+    /* hide the nav bar */
+    .menu {
+        display: none;
+    }
+
+    /* show the menu icon */
+    .menuIcon {
+        display: block;
+    }
 }
