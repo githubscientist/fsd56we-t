@@ -1,12 +1,9 @@
-.surveyForm {
-    display: grid;
-    grid-template-columns: 30% 30%;
+.paragraph::after {
+    content: '"';
+    color: red;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-.smallText {
-    font-size: 0.8em;
+.paragraph::before {
+    content: '"';
+    color: red;
 }
