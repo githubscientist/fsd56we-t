@@ -1,9 +1,0 @@
-.paragraph::after {
-    content: '"';
-    color: red;
-}
-
-.paragraph::before {
-    content: '"';
-    color: red;
-}
