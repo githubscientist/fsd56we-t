@@ -1,0 +1,12 @@
+.surveyForm {
+    display: grid;
+    grid-template-columns: 30% 30%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.smallText {
+    font-size: 0.8em;
+}
