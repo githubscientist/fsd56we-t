@@ -20,8 +20,8 @@ innerHTML:
 
 - The innerHTML property sets or returns the HTML content (inner HTML) of an element.
 
-[x] appendChild vs append ### Pre-read: https://github.com/rvsp/html-CSS/
+[x] appendChild vs append
 
-```
+### Pre-read:
 
-```
+https://github.com/rvsp/html-CSS/

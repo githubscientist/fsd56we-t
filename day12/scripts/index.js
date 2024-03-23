@@ -1,63 +1,37 @@
-// const btn4 = document.getElementById('btn4');
-const btn4 = document.querySelector('#btn4'); // select by id
+const favoriteFoods = document.querySelector('.favoriteFoods');
 
-btn4.style.backgroundColor = 'red';
-btn4.style.color = 'white';
+const foods = ['Pizza', 'Tacos', 'Sushi', 'Burgers', 'Pasta'];
 
-const btn1 = document.querySelector('button'); // select by tag
+// favoriteFoods.innerHTML = '<li>Chicken Briyani</li>';
 
-btn1.style.backgroundColor = 'blue';
-btn1.style.color = 'white';
+let foodList = '';
 
-// console.log(btn1);
+foods.forEach(food => {
+    foodList = foodList + `<li>${food}</li>`;
+})
 
-const buttons = document.querySelectorAll('button');
+// console.log(foodList);
+favoriteFoods.innerHTML = foodList;
 
-for (let i = 0; i < buttons.length; i++){
-    if(buttons[i].style.backgroundColor !== 'blue' && buttons[i].style.backgroundColor !== 'red'){
-        buttons[i].style.backgroundColor = 'green';
-        buttons[i].style.color = 'white';
-    }
-}
+const heading = document.querySelector('.heading');
 
-// console.log(buttons);
+const header = document.createElement('h1');
+header.textContent = 'Favorite Foods';
+// header.setAttribute('class', 'red');
+header.setAttribute('style', 'color: red');
 
-/*
-    1. Create a unordered list with the list items content of your favorite foods.
+const paragraph = document.createElement('p');
+paragraph.textContent = 'These are some of my favorite foods';
+paragraph.setAttribute('class', 'blue');
 
-    favoriteFoods = ['Pizza', 'Burger', 'Pasta', 'Fried Chicken', 'Ice Cream', 'Donut', 'Cake', 'Fries', 'Shawarma', 'Tacos']
+// heading.appendChild(header);
+// heading.appendChild(paragraph);
+heading.append(header, paragraph);
 
-*/
+favoriteFoods.setAttribute('class', 'green');
 
-const container = document.querySelector('#container');
+const foodItems = document.querySelectorAll('li');
 
-favoriteFoods = ['Pizza', 'Burger', 'Pasta', 'Fried Chicken', 'Ice Cream', 'Donut', 'Cake', 'Fries', 'Shawarma', 'Briyani'];
+foodItems[2].remove();
 
-// create an unordered list
-const foodsList = document.createElement('ul');
-
-favoriteFoods.forEach(food => {
-    const foodItem = document.createElement('li');
-    foodItem.innerText = food;
-    foodsList.appendChild(foodItem);
-});
-
-container.appendChild(foodsList);
-
-/*
-    Exercise: 
-
-    From the above created list of favorite foods, change the text color of the odd list items to red and the even list items to blue.
-*/
-
-// const foodItems = document.querySelectorAll('li');
-
-// // console.log(foodItems);
-
-// for (let index = 0; index < foodItems.length; index++){
-//     if (index % 2 == 0) {
-//         foodItems[index].style.color = 'red';
-//     } else {
-//         foodItems[index].style.color = 'blue';
-//     }
-// }
+console.log(foodItems);
