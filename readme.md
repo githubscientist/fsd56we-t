@@ -1,15 +1,14 @@
-## HTML & CSS- Day -5 : Responsive web design
+## DOM- Day -1 : DOM
 
-**Contents:**
+### Contents:
 
-[x] What is RWD?
-[x] media query --will be covered with RWD
-[x] What is mobile first approach?
+[] document - createElement  
+[] setAttribute  
+[] getElementById  
+[] querySelector vs querySelectorAll  
+[] innerHTML vs innerText  
+[] appendChild vs append
 
-Traditionally, websites were designed for desktops and then adapted to smaller screens. This approach is called desktop-first design. However, with the increasing number of mobile users, the mobile-first approach is becoming more popular. This approach involves designing for mobile devices first and then adapting to larger screens.
+### Pre-read:
 
-[x] Bootstrap - 4.6
-
-When we want to develop web pages that requires minimal design appeal and faster development and responsive, we can use bootstrap.
-
-Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+https://github.com/rvsp/html-CSS/
