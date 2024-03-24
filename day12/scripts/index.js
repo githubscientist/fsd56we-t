@@ -1,37 +1,13 @@
-const favoriteFoods = document.querySelector('.favoriteFoods');
+let container = document.querySelector('.container');
 
-const foods = ['Pizza', 'Tacos', 'Sushi', 'Burgers', 'Pasta'];
+// console.log(container.children[1]);
+// container.innerText = 'Hello World';
 
-// favoriteFoods.innerHTML = '<li>Chicken Briyani</li>';
+// container.children[0].innerText = 'Hello World';
+// container.children[1].innerText = 'Hello World';
 
-let foodList = '';
+// container.innerHTML = `<h1>Inner HTML</h1><p>This is a simple example for innerHTML</p>`;
 
-foods.forEach(food => {
-    foodList = foodList + `<li>${food}</li>`;
-})
-
-// console.log(foodList);
-favoriteFoods.innerHTML = foodList;
-
-const heading = document.querySelector('.heading');
-
-const header = document.createElement('h1');
-header.textContent = 'Favorite Foods';
-// header.setAttribute('class', 'red');
-header.setAttribute('style', 'color: red');
-
-const paragraph = document.createElement('p');
-paragraph.textContent = 'These are some of my favorite foods';
-paragraph.setAttribute('class', 'blue');
-
-// heading.appendChild(header);
-// heading.appendChild(paragraph);
-heading.append(header, paragraph);
-
-favoriteFoods.setAttribute('class', 'green');
-
-const foodItems = document.querySelectorAll('li');
-
-foodItems[2].remove();
-
-console.log(foodItems);
+for (let index = 0; index < container.children.length; index++){
+    console.log(container.children[index]);
+}
