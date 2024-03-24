@@ -21,5 +21,12 @@ cookies: data is sent to server with every request. small amount of data compare
 
 setTimeout: executes a function, once after a specified time has passed.
 
-[x] prompt, Alert, confirm  
+[x] prompt, Alert, confirm
+
+functions that are built into the browser for user interaction through dialog boxes.
+
+prompt: takes input from user
+alert: displays a message
+confirm: displays a message and asks for user confirmation
+
 [x] working with events

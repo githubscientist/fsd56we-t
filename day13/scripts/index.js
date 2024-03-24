@@ -1,23 +1,12 @@
-// setTimeout(
-//     () => {
-//         console.log('Hello from the future!')
-//     },
-//     5000
-// )
+// let name = prompt('What is your name?');
 
-let timer = 10;
+// console.log('Hello, ' + name + '!');
 
-let timerInterval = setInterval(
-    () => {
-        console.log(timer--);
-    },
-    1000
-)
+// alert('The script is running!');
 
-setTimeout(
-    () => {
-        clearInterval(timerInterval);
-        console.log('Happy New Year!')
-    }, 
-    10000
-)
+// let confirmation = confirm('Do you want to delete this file?');
+
+// if (confirmation) {
+//     alert('File deleted!');
+// } 
+
