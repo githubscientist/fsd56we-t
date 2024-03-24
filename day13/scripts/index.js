@@ -1,35 +1,23 @@
-// window.localStorage.setItem('name', 'John Doe');
-// window.localStorage.setItem('age', 30);
-// window.localStorage.setItem('isMarried', false);
-
-
-
-// console.log(window.localStorage);
-// console.log(window.localStorage.getItem('name'));
-
-// window.localStorage.removeItem('name');
-// window.localStorage.removeItem('age');
-// window.localStorage.clear();
-
-// window.localStorage.setItem('age', 45);
-
-// const recentSearches = [
-//     {
-//         title: 'laptops',
-//         similarSearches: ['laptops', 'laptops for sale', 'laptops under $500']
+// setTimeout(
+//     () => {
+//         console.log('Hello from the future!')
 //     },
-//     {
-//         title: 'smartphones',
-//         similarSearches: ['smartphones', 'smartphones for sale', 'smartphones under $500']
-//     },
-//     {
-//         title: 'tablets',
-//         similarSearches: ['tablets', 'tablets for sale', 'tablets under $500']
-//     }
-// ]
+//     5000
+// )
 
-// localStorage.setItem('recentSearches', JSON.stringify(recentSearches));
+let timer = 10;
 
-const searches = JSON.parse(localStorage.getItem('recentSearches'));
+let timerInterval = setInterval(
+    () => {
+        console.log(timer--);
+    },
+    1000
+)
 
-console.log(searches[2]);
+setTimeout(
+    () => {
+        clearInterval(timerInterval);
+        console.log('Happy New Year!')
+    }, 
+    10000
+)
